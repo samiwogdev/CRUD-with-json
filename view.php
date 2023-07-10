@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__.'/partials/header.php';
-include_once __DIR__.'/users.php';
+include_once __DIR__.'/users/users.php';
 if(!isset($_GET['id'])){
     include_once 'partials/not_found.php';
     exit;

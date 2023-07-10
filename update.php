@@ -1,7 +1,7 @@
 <?php
 
 require_once __DIR__ . '/partials/header.php';
-include_once __DIR__ . '/users.php';
+include_once __DIR__ . '/users/users.php';
 if (!isset($_GET['id'])) {
     include_once 'partials/not_found.php';
     exit;
@@ -14,7 +14,23 @@ if (!$user) {
     exit;
 }
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    updateUser($_POST, $userid); 
+    $user = updateUser($_POST, $userid); 
+ 
+    if (isset($_FILES['picture'])){
+        if(!is_dir(__DIR__."/users/images")){
+            mkdir(__DIR__."/users/images");
+        }
+        //Get the file extension from the filename
+        $fileName = $_FILES['picture']['name'];
+        //Search for the dot in the filename
+        $dotPosition = strpos($fileName, '.');
+        //Take the substring from the dot position till the end of the string
+        $extension = substr($fileName, $dotPosition + 1);
+        move_uploaded_file($_FILES['picture']['tmp_name'], __DIR__."/users/images/$userid.$extension");
+        $user['extension'] = $extension;
+        updateUser($user, $userid);
+    }
+    header("location: index.php");
 }
 ?>
 <div class="container">

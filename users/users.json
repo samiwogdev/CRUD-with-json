@@ -1,20 +1,23 @@
-[{
+[
+    {
         "id": 5,
-        "name": "Chelsey Dietrich 2",
+        "name": "Chelsey Wogsley 0",
         "username": "Kamren",
         "email": "Lucio_Hettinger@annie.ca",
         "phone": "453218563",
         "website": "demarco.info",
         "extension": "jpg"
-    }, {
+    },
+    {
         "id": 4,
         "name": "Patricia Lebsack",
         "username": "Karianne",
         "email": "Julianne.OConner@kory.org",
         "phone": "123451234",
         "website": "kale.biz",
-        "extension": "jpg"
-    }, {
+        "extension": "png"
+    },
+    {
         "id": 6,
         "name": "Mrs. Dennis Schulist",
         "username": "Leopoldo_Corkery",
@@ -22,35 +25,41 @@
         "phone": "1078412367",
         "website": "ola.org",
         "extension": "jpg"
-    }, {
+    },
+    {
         "id": 7,
         "name": "Kurtis Weissnat",
         "username": "Elwyn.Skiles",
         "email": "Telly.Hoeger@billy.biz",
         "phone": "210.067.6132",
-        "website": "elvis.io"
-    }, {
+        "website": "elvis.io",
+        "extension": "jpg"
+    },
+    {
         "id": 8,
         "name": "Nicholas Runolfsdottir V",
         "username": "Maxime_Nienow",
         "email": "Sherwood@rosamond.me",
         "phone": "586.493.6943 x140",
         "website": "jacynthe.com"
-    }, {
+    },
+    {
         "id": 9,
         "name": "Glenna Reichert",
         "username": "Delphine",
         "email": "Chaim_McDermott@dana.io",
         "phone": "(775)976-6794 x41206",
         "website": "conrad.com"
-    }, {
+    },
+    {
         "id": 10,
         "name": "Clementina DuBuque",
         "username": "Moriah.Stanton",
         "email": "Rey.Padberg@karina.biz",
         "phone": "024-648-3804",
         "website": "ambrose.net"
-    }, {
+    },
+    {
         "name": "John Doe",
         "username": "john22",
         "email": "",
@@ -58,4 +67,5 @@
         "website": "",
         "id": 1879571,
         "extension": "jpg"
-    }]
+    }
+]
