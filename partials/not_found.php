@@ -1,7 +1,3 @@
-<?php
-
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
-
+<div class="alert alert-danger">
+    <h3>User does not exist</h3>
+</div>

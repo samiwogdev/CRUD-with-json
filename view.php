@@ -2,16 +2,21 @@
 require_once __DIR__.'/partials/header.php';
 include_once __DIR__.'/users.php';
 if(!isset($_GET['id'])){
-    echo 'not found';
+    include_once 'partials/not_found.php';
     exit;
 }
 $userid = $_GET['id'];
 $user = getUserById($userid);
 if(!$user){
-    echo 'not found';
+    include_once 'partials/not_found.php';
     exit;
 }
 ?>
+<div class="container">
+ <div class="card">
+        <div class="card-header">
+            <h3>View User: <b><?php echo $user['name'] ?></b></h3>
+        </div>
  <table class="table">
             <tbody>
             <tr>
@@ -40,4 +45,6 @@ if(!$user){
             </tr>
             </tbody>
         </table>
+ </div>
+</div>
 <?php require_once __DIR__.'/partials/footer.php'; ?>

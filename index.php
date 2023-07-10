@@ -4,7 +4,7 @@ require_once 'users.php';
 $users = getUsers();
 require_once __DIR__.'/partials/header.php';
 ?>
-
+<div class="container">
         <table class="table">
             <thead>
                 <tr>
@@ -24,7 +24,9 @@ require_once __DIR__.'/partials/header.php';
                         <td><?php echo $user['username'] ?></td>
                         <td><?php echo $user['email'] ?></td>
                         <td><?php echo $user['phone'] ?></td>
-                        <td><?php echo $user['website'] ?></td>
+                        <td>
+                            <a href="https://<?php echo $user['website'] ?>" target="_blank"><?php echo $user['website'] ?></a>
+                        </td>
                         <td> 
                             <a href="view.php?id=<?php echo $user['id'] ?>" class="btn btn-sm btn-outline-info">View</a>
                             <a href="update.php?id=<?php echo $user['id'] ?>" class="btn btn-sm btn-outline-secondary">Update</a>
@@ -34,4 +36,5 @@ require_once __DIR__.'/partials/header.php';
                 <?php endforeach; ?>
             </tbody>
         </table>
+</div>
   <?php require_once __DIR__.'/partials/footer.php'; ?>
