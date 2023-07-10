@@ -13,6 +13,9 @@ if (!$user) {
     include_once 'partials/not_found.php';
     exit;
 }
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    updateUser($_POST, $userid); 
+}
 ?>
 <div class="container">
     <div class="card">
