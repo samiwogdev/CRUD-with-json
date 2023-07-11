@@ -1,4 +1,16 @@
-    <form method="POST" enctype="multipart/form-data"
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3>
+                <?php if ($user['id']): ?>
+                    Update user <b><?php echo $user['name'] ?></b>
+                <?php else: ?>
+                    Create new User
+                <?php endif ?>
+            </h3>
+        </div>
+        <div class="card-body">
+             <form method="POST" enctype="multipart/form-data"
                   action="">
                 <div class="form-group">
                     <label>Name</label>
@@ -46,4 +58,7 @@
                 </div>
 
                 <button class="btn btn-success">Submit</button>
-            </form>
+            </form> 
+        </div>
+    </div>
+</div>

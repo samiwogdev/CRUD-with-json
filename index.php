@@ -3,7 +3,10 @@ require_once 'users/users.php';
 $users = getUsers();
 require_once __DIR__ . '/partials/header.php';
 ?>
-<div class="container">
+<div class="container mt-3">
+     <p>
+        <a class="btn btn-success" href="create.php">Create new User</a>
+    </p>
     <table class="table">
         <thead>
             <tr>

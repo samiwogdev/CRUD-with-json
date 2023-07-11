@@ -50,7 +50,8 @@
         "username": "Delphine",
         "email": "Chaim_McDermott@dana.io",
         "phone": "(775)976-6794 x41206",
-        "website": "conrad.com"
+        "website": "conrad.com",
+        "extension": "jpg"
     },
     {
         "id": 10,
@@ -67,6 +68,56 @@
         "phone": "12345",
         "website": "",
         "id": 1879571,
+        "extension": "jpg"
+    },
+    {
+        "name": "Samuel Ogunbodede",
+        "username": "samiwog",
+        "email": "samiwogdev@gmail.com",
+        "phone": "08139663026",
+        "website": "findsamiwog.com",
+        "id": 1835922
+    },
+    {
+        "name": "Samuel Ogunbodede",
+        "username": "samiwog",
+        "email": "samiwogdev@gmail.com",
+        "phone": "08139663026",
+        "website": "findsamiwog.com",
+        "id": 1759798
+    },
+    {
+        "name": "Samuel Ogunbodede",
+        "username": "samiwog",
+        "email": "samiwogdev@gmail.com",
+        "phone": "08139663026",
+        "website": "findsamiwog.com",
+        "id": 1293648
+    },
+    {
+        "name": "Samuel Ogunbodede",
+        "username": "samiwog",
+        "email": "samiwogdev@gmail.com",
+        "phone": "08139663026",
+        "website": "findsamiwog.com",
+        "id": 1529875
+    },
+    {
+        "name": "Samuel Ogunbodede",
+        "username": "samiwog",
+        "email": "samiwogdev@gmail.com",
+        "phone": "08139663026",
+        "website": "findsamiwog.com",
+        "id": 1536731,
+        "extension": "jpg"
+    },
+    {
+        "name": "Samuel Ogunbodede",
+        "username": "samiwog",
+        "email": "samiwogdev@gmail.com",
+        "phone": "08139663026",
+        "website": "findsamiwog.com",
+        "id": 1389468,
         "extension": "jpg"
     }
 ]

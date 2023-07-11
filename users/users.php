@@ -17,9 +17,11 @@ function getUserById(int $id) {
 
 function createUser($data) {
     $users = getUsers();
-    $data[id] = rand(1000000, 2000000);
+    $data["id"] = rand(1000000, 2000000);
     $users[] = $data;
     putJson($users);
+    
+    return $data;
 }
 
 function updateUser($data, $id) {
@@ -37,6 +39,7 @@ function updateUser($data, $id) {
 
 function uploadImage($file, $user) {
     if (isset($_FILES['picture']) && $_FILES['picture']['name']) {
+        
         if (!is_dir(__DIR__ . "/images")) {
             mkdir(__DIR__ . "/images");
         }
