@@ -37,11 +37,12 @@
     },
     {
         "id": 8,
-        "name": "Nicholas Runolfsdottir V",
+        "name": "Nicholas Runolfsdottir Test",
         "username": "Maxime_Nienow",
         "email": "Sherwood@rosamond.me",
         "phone": "586.493.6943 x140",
-        "website": "jacynthe.com"
+        "website": "jacynthe.com",
+        "extension": "jpg"
     },
     {
         "id": 9,
