@@ -37,87 +37,11 @@
     },
     {
         "id": 8,
-        "name": "Nicholas Runolfsdottir Test",
+        "name": "Nicholas Runolfsdottir T",
         "username": "Maxime_Nienow",
         "email": "Sherwood@rosamond.me",
-        "phone": "586.493.6943 x140",
+        "phone": "54936943140",
         "website": "jacynthe.com",
-        "extension": "jpg"
-    },
-    {
-        "id": 9,
-        "name": "Glenna Reichert",
-        "username": "Delphine",
-        "email": "Chaim_McDermott@dana.io",
-        "phone": "(775)976-6794 x41206",
-        "website": "conrad.com",
-        "extension": "jpg"
-    },
-    {
-        "id": 10,
-        "name": "Clementina DuBuque",
-        "username": "Moriah.Stanton",
-        "email": "Rey.Padberg@karina.biz",
-        "phone": "024-648-3804",
-        "website": "ambrose.net"
-    },
-    {
-        "name": "John Doe",
-        "username": "john22",
-        "email": "",
-        "phone": "12345",
-        "website": "",
-        "id": 1879571,
-        "extension": "jpg"
-    },
-    {
-        "name": "Samuel Ogunbodede",
-        "username": "samiwog",
-        "email": "samiwogdev@gmail.com",
-        "phone": "08139663026",
-        "website": "findsamiwog.com",
-        "id": 1835922
-    },
-    {
-        "name": "Samuel Ogunbodede",
-        "username": "samiwog",
-        "email": "samiwogdev@gmail.com",
-        "phone": "08139663026",
-        "website": "findsamiwog.com",
-        "id": 1759798
-    },
-    {
-        "name": "Samuel Ogunbodede",
-        "username": "samiwog",
-        "email": "samiwogdev@gmail.com",
-        "phone": "08139663026",
-        "website": "findsamiwog.com",
-        "id": 1293648
-    },
-    {
-        "name": "Samuel Ogunbodede",
-        "username": "samiwog",
-        "email": "samiwogdev@gmail.com",
-        "phone": "08139663026",
-        "website": "findsamiwog.com",
-        "id": 1529875
-    },
-    {
-        "name": "Samuel Ogunbodede",
-        "username": "samiwog",
-        "email": "samiwogdev@gmail.com",
-        "phone": "08139663026",
-        "website": "findsamiwog.com",
-        "id": 1536731,
-        "extension": "jpg"
-    },
-    {
-        "name": "Samuel Ogunbodede",
-        "username": "samiwog",
-        "email": "samiwogdev@gmail.com",
-        "phone": "08139663026",
-        "website": "findsamiwog.com",
-        "id": 1389468,
-        "extension": "jpg"
+        "extension": "png"
     }
 ]

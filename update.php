@@ -1,28 +1,39 @@
 <?php
-require_once __DIR__ . '/partials/header.php';
-include_once __DIR__ . '/users/users.php';
+include 'partials/header.php';
+require __DIR__ . '/users/users.php';
+
 if (!isset($_GET['id'])) {
-    include_once 'partials/not_found.php';
+    include "partials/not_found.php";
     exit;
 }
+$userId = $_GET['id'];
 
-$userid = $_GET['id'];
-
-$user = getUserById($userid);
+$user = getUserById($userId);
 if (!$user) {
-    include_once 'partials/not_found.php';
+    include "partials/not_found.php";
     exit;
 }
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $user = updateUser($_POST, $userid);
-    
-    if (isset($_FILES['picture'])) {
-        uploadImage($_FILES['picture'], $user);
-    }
-    
-    header("location: index.php");
-}
- include_once '_form.php'; 
- ?>
+$errors = [
+    'name' => "",
+    'username' => "",
+    'email' => "",
+    'phone' => "",
+    'website' => "",
+];
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $user = array_merge($user, $_POST);
+
+    $isValid = validateUser($user, $errors);
+
+    if ($isValid) {
+        $user = updateUser($_POST, $userId);
+        uploadImage($_FILES['picture'], $user);
+        header("Location: index.php");
+    }
+}
+
+?>
+
+<?php include '_form.php' ?>

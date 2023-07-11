@@ -10,7 +10,8 @@
             </h3>
         </div>
         <div class="card-body">
-             <form method="POST" enctype="multipart/form-data"
+
+            <form method="POST" enctype="multipart/form-data"
                   action="">
                 <div class="form-group">
                     <label>Name</label>
@@ -58,7 +59,7 @@
                 </div>
 
                 <button class="btn btn-success">Submit</button>
-            </form> 
+            </form>
         </div>
     </div>
 </div>
